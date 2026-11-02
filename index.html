@@ -4,42 +4,76 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>VOGUE</title>
-    <link rel="stylesheet" href="styles/styles.css">
+    <link rel="stylesheet" href="style/style.css">
+
+    <link rel="icon" href="./assets/logo.png" type="image/png">
 </head>
-<body>
+<body> 
     <header>
-    <h1 class="titulo-principal">VOGUE - Para todo el mundo </h1>
-    <h2>VOGUE es una marca de moda y estilo de vida reconocida a nivel mundial, que se ha convertido en un referente en la industria de la moda y la cultura popular. Fundada en 1892, VOGUE ha evolucionado a lo largo de los años para reflejar las tendencias y los cambios en la sociedad, manteniendo siempre su enfoque en la elegancia, la creatividad y la innovación.</h2>   
-    <!--dato de color-->
-    <nav>  
+         <img src="./assets/logo.img" alt="Logo Vogue" class="logo">
+
+     <div class="header-textos">  
+         <h1 class="titulo-principal">VOGUE - PARA TODO EL MUNDO</h1>
+         <h2>VOGUE es una marca de moda y estilo de vida reconocida a nivel mundial, que se ha convertido en un referente en la industria de la moda y la cultura popular. Fundada en 1892, VOGUE ha evolucionado a lo largo de los años para reflejar las tendencias.</h2>   
+     </div>
+         <!--dato de color-->
+    <nav class="navbar">  
         <ul>
-          <li><a href="pages/nuestra historia.html">Nuestra Historia</a></li>
+          <li><a href="pages/nuestra-historia.html">Nuestra Historia</a></li>
           <li><a href="pages/galeria.html">Galería</a></li>
-          <li><a href="pages/desfiles universales.html">Desfiles Universales</a></li>
+          <li><a href="pages/desfiles-universales.html">Desfiles Universales</a></li>
           <li><a href="pages/contactanos.html">Contáctanos</a></li>
         </ul>
-        </nav>
-        </header>
+    </nav>
+</header>
 
-    <main>
-        <section id="VOGUE Y MUCHO MÁS"
-        <h2>En 1909 (poco después de la muerte de Turnure), el empresario Condé Montrose Nast compró la revista y comenzó su gran transformación. La convirtió en una publicación enfocada en la moda femenina, la belleza y el estilo de vida, además de iniciar su expansión internacional (lanzando ediciones en países como Gran Bretaña y Francia).</h2>
-        <figure>    
-            <video class ="video" src="./assets/video3.png.mp4" controls></video>
-            <figcaption> VOGUE No es una marca de lujo tradicional, sino una marca premium o de gama media-alta de motocicletas
-                El Met Gala: Aunque es organizado por el Museo Metropolitano de Arte de Nueva York (The Costume Institute), Vogue —y especialmente Anna Wintour— lidera la organización y el comité de este evento desde 1995, convirtiéndolo en la alfombra roja y la fiesta benéfica de moda más importante del mundo. </figcaption>
-            <img class="blanco" src="./assets/change.png.jpg" alt="Logo de Blanco">
-            <figcaption> La era de las Supermodelos: En la década de 1990, bajo la dirección editorial de Anna Wintour, la revista catapultó a la fama internacional a las grandes supermodelos (como Naomi Campbell, Cindy Crawford, Linda Evangelista y Kate Moss), integrándolas de lleno en la cultura pop.</figcaption>
-            <video class="video" src="./assets/playa.png.mp4" controls></video>
-    
-        </figure>
-        <p> Vogue Moda es un espacio dedicado al mundo de la moda, las tendencias y el estilo personal. Nuestro objetivo es ofrecer prendas y propuestas que reflejen las últimas tendencias, combinando elegancia, comodidad y originalidad. Buscamos que cada persona pueda expresar su personalidad a través de la ropa, encontrando su propio estilo y sintiéndose segura en cada ocasión.
-        En Vogue Moda creemos que la moda es mucho más que vestirse: es una forma de expresión, identidad y creatividad.</p>
-        </section>
-    </main>
+<main>
+     <section class="hero">
+            <div class="hero-texto">
+                <h3> En 1909 (poco después de la muerte de Turnure), el empresario Condé Montrose Nast compró la revista y comenzó su gran transformación. La convirtió en una publicación enfocada en la moda femenina, la belleza y el estilo de vida, además de iniciar su expansión internacional (lanzando ediciones en países como Gran Bretaña y Francia).</h3>
+                <p> Vogue Moda es un espacio dedicado al mundo de la moda, las tendencias y el estilo personal. Nuestro objetivo es ofrecer prendas y propuestas que reflejen las últimas tendencias, combinando elegancia, comodidad y originalidad. Buscamos que cada persona pueda expresar su personalidad a través de la ropa, encontrando su propio estilo y sintiéndose segura en cada ocasión.
+                    En Vogue Moda creemos que la moda es mucho más que vestirse: es una forma de expresión, identidad y creatividad.</p>
+                <a href="pages/nuestra-historia.html" class="hero-boton">VER MAS</a>
+            </div>
+            
+           <div class="hero-imagen">
+             <img class="blanco" src="./assets/change.img" alt="personas blancas">
+        </div>
+     </section>
+
+     <section class="home-colecciones">
+        <h2>Nuestras Colecciones</h2>
+        <div class="cards">
+            <div class="card">
+                <h3>Colección Otoño</h3>
+                <p>Paleta de colores: Tonos cálidos, tierra y profundos como el terracota, mostaza, burdeos, verde olivo, marrón chocolate, beige, ocre, gris antracita y borgoña. </p>
+            </div>
+            <div class="card">
+                <h3>Colección Invierno</h3>
+                <p>Paleta de colores: Tiende a tonos sobrios y profundos como el negro, gris, marrón chocolate, azul marino, burdeos, vino y el color berenjena</p>
+            </div>
+            <div class="card">
+                <h3>Colección verano</h3>
+                <p>Paleta de colores: combina tonos frescos, suaves y apagados (inspirados en la colorimetría de estación) junto con las tendencias de color más vibrantes para la moda actual</p>
+        </div>
+    </section>
+</main>
+
+         <section class="multimedia">
+         <figure>
+        <!-- Primer video -->
+        <video class="video" src="./assets/video3.png.mp4" controls></video>
+        <figcaption>La Met Gala: Este megaevento benéfico anual en Nueva York está completamente organizado y controlado por Vogue. Funciona como la alfombra roja más exclusiva del planeta, donde la moda se cruza directamente con el arte museístico</figcaption>
+
+        <!-- Segundo video -->
+        <video class="video" src="./assets/playa.png.mp4" controls></video>
+        <figcaption> La era Wintour y Malle: Anna Wintour dirigió la edición estadounidense de 1988 a 2025, transformándola en una plataforma política y de entretenimiento multimillonaria. Tras su paso al rol global de Condé Nast, Chloe Malle asumió la dirección editorial en Nueva York... Poder e influencia global: Fundada en 1892, Vogue no solo muestra ropa cara; dictamina qué es socialmente relevante. Ha sido el trampolín de artistas icónicos como Salvador Dalí y fotógrafos legendarios como Annie Leibovitz.</figcaption>
+    </figure>
+</section>
 
   <footer>
-    <p>&copy; 2026 Todos los derechos reservados.</p>
+    <p>&copy; 2026 Todos los derechos reservados. Av. Fashion Street, Ciudad de la Moda, País de la Elegancia. Teléfono: +1 (555) 123-4567 | Correo electrónico: vogue@modamundial.com.ar
+    </p>
     <ul>
         <li>
             <a href="https://www.instagram.com/" target="_blank">
